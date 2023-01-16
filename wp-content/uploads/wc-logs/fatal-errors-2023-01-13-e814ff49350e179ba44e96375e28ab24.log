@@ -1,0 +1,10 @@
+2023-01-13T14:33:55+00:00 CRITICAL Uncaught Error: Interface 'ScssPhp\ScssPhp\Exception\SassException' not found in /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/scssphp/src/Exception/CompilerException.php:22
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/scssphp/scss.inc.php(12): include_once()
+#1 /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/scripts.php(860): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/scripts.php(34): Ocean_Extra_Scripts_Panel::generate_css()
+#3 /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/scripts.php(1474): Ocean_Extra_Scripts_Panel->__construct()
+#4 /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/theme-panel.php(643): require_once('/var/www/html/w...')
+#5 /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/theme-panel.php(41): Ocean_Extra_Theme_Panel::load_addons()
+#6 /var/www/html/wordpress/wp-content/plugins in /var/www/html/wordpress/wp-content/plugins/ocean-extra/includes/panel/scssphp/src/Exception/CompilerException.php on line 22
+

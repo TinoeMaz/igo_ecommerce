@@ -1,0 +1,9 @@
+2023-01-16T04:05:49+00:00 CRITICAL Uncaught InvalidArgumentException: Unidentified action 305 in /var/www/html/wordpress/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:522
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(31): ActionScheduler_DBStore->mark_failure()
+#1 /var/www/html/wordpress/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(75): ActionScheduler_Abstract_QueueRunner->process_action()
+#2 /var/www/html/wordpress/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(59): ActionScheduler_QueueRunner->do_batch()
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(308): ActionScheduler_QueueRunner->run()
+#4 /var/www/html/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /var/www/html/wordpress/wp-includes/plugin.php(517): WP_Ho in /var/www/html/wordpress/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 522
+
